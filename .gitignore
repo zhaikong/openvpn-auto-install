@@ -1,0 +1,9 @@
+# 创建 .gitignore 文件
+cat > .gitignore << 'EOF'
+*.log
+*.ovpn
+*.key
+*.crt
+*.pem
+/pki/
+EOF
